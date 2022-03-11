@@ -1,0 +1,107 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #2e2e2e;
+    background-color: #48acaf;
+}
+
+.listaCadastro{
+    display: flex;
+    margin: 2% 0% 0% 10%;
+    width: 100%;
+    max-width: 70%;
+    height: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.listaCadastro input[type="text"], input[type="number"]{
+    flex: 1;
+    height: 40px;
+    padding: 0% 0% 0% 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 5px;
+    
+}
+
+
+.customSubmit{
+    display: flex;
+    margin: 0% 0% 0% 22%;
+    width: 100%;
+    max-width: 40%;
+    min-width: 20%;
+    height: 60px;
+    flex-wrap: wrap;
+    padding: 0% 0% 0% 5%;
+}
+
+.customSubmit input[type="submit"]{
+    flex: 1;
+    margin-top: 10px;
+    background-color:#287174 ;
+    border-radius: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: #e2e2e2;
+    
+    
+}
+
+
+
+.listaProdutosSingle{
+    padding: 10px 0;
+    border-bottom: 2px solid #b4b0b0;
+    display: flex;
+}
+
+.listaProdutosSingle h3{
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3.priceProduto{
+    text-align: right;
+    font-size: 17px;
+}
+
+h3.priceProduto > span{
+    background-color: #48acaf;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color:white;
+}
+
+.somaProduto{
+    margin: 20px;
+    font-size: 15px;
+}
+
+button[name="limpar"] {
+    margin-top: 10px;
+    background-color:#287174 ;
+    border-radius: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: #e2e2e2; 
+    height: 40px; width: 20%;
+    margin: 0px 0px 0px 35%;
+    
+}
